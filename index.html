@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Our Wedding</title>
+<!-- Link to your CSS file -->
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Thanh & Xuan's Wedding</h1>
+  <p>You're Invited!</p>
+</header>
+
+<section>
+  <h2>Countdown to the Big Day</h2>
+  <div class="countdown" id="countdown">Loading...</div>
+</section>
+
+<section class="event-details">
+  <h2>Event Details</h2>
+  <p><strong>Date:</strong> December 13, 2025</p>
+  <p><strong>Time:</strong> 4:00 PM</p>
+  <p><strong>Location:</strong> Song Be Golf Resort, Thuan An, Ho Chi Minh, Vietnam</p>
+</section>
+
+<section class="rsvp">
+  <h2>RSVP</h2>
+  <form id="rsvpForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required />
+
+    <label for="attend">Will you attend?</label>
+    <select id="attend" required>
+      <option value="">Select</option>
+      <option value="Yes">Yes, see you there!</option>
+      <option value="No">Sorry, can't make it</option>
+    </select>
+
+    <label for="message">Message (optional):</label>
+    <textarea id="message" rows="3"></textarea>
+
+    <button type="submit">Send RSVP</button>
+  </form>
+  <div id="rsvpMessage"></div>
+</section>
+
+<!-- Link to your JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>

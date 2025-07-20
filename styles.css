@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f3e3;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f07a48;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .countdown {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffe5b4;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+  .event-details {
+    margin-top: 20px;
+  }
+  
+  .rsvp {
+    margin-top: 30px;
+  }
+  
+  input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #f07a48;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e55b36;
+  }
+  
